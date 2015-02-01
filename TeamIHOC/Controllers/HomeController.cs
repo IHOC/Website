@@ -26,5 +26,15 @@ namespace TeamIHOC.Controllers
 
 			return View();
 		}
+
+		public ActionResult Irc()
+		{
+			return View();
+		}
+
+		public ActionResult Modding()
+		{
+			return View();
+		}
 	}
 }
