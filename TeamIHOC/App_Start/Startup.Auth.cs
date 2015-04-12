@@ -39,17 +39,17 @@ namespace TeamIHOC
 			app.UseExternalSignInCookie(DefaultAuthenticationTypes.ExternalCookie);
 
 			// Uncomment the following lines to enable logging in with third party login providers
-			app.UseMicrosoftAccountAuthentication(
-				clientId: "000000004813E325",
-				clientSecret: "fgffIe58y0MJ3NP3Ead6J7HxOSRKcfT1");
+			//app.UseMicrosoftAccountAuthentication(
+			//	clientId: "000000004813E325",
+			//	clientSecret: "fgffIe58y0MJ3NP3Ead6J7HxOSRKcfT1");
 
-			//app.UseTwitterAuthentication(
-			//   consumerKey: "",
-			//   consumerSecret: "");
+			app.UseTwitterAuthentication(
+			   consumerKey: "UCy1ahFf7ieFlj9lZyiYlif86",
+			   consumerSecret: "G55d523CEwF9DjMIckUfHIWcBZ3qhJvPbp49bVU4d9VqvYWHnH");
 
-			//app.UseFacebookAuthentication(
-			//   appId: "",
-			//   appSecret: "");
+			app.UseFacebookAuthentication(
+				 appId: "1627418324158379",
+				 appSecret: "753f93464e1891cf37467c50a1cdf226");
 
 			//app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
 			//{
