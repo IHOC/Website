@@ -1,1 +1,101 @@
-﻿
+﻿14/04/2015 03:09:28 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:13:41 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:13:48 | MVCForum.Website.dll | Execute | An error occurred while executing the command definition. See the inner exception for details. INNER EXCEPTION: Invalid object name 'dbo.Email'.
+14/04/2015 03:13:48 | Quartz.Unity.45.dll | Execute | Error in KeepAlive job > An error occurred while executing the command definition. See the inner exception for details.
+14/04/2015 03:13:56 | MVCForum.Website.dll | Execute | An error occurred while executing the command definition. See the inner exception for details. INNER EXCEPTION: Invalid object name 'dbo.Email'.
+14/04/2015 03:14:15 | MVCForum.Services.dll | CreateUser | Unable to retrieve resource key 'Members.NewMemberRegistered' for language id b8743656-2e43-493b-bfd5-a47a00355615.
+14/04/2015 03:14:15 | MVCForum.Services.dll | CreateUser | Unable to retrieve resource key 'Members.Admin' for language id b8743656-2e43-493b-bfd5-a47a00355615.
+14/04/2015 03:14:15 | MVCForum.Services.dll | CreateUser | Unable to retrieve resource key 'Members.NewMemberSubject' for language id b8743656-2e43-493b-bfd5-a47a00355615.
+14/04/2015 03:14:17 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:14:23 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:14:26 | System.Web.dll | ResumeSteps | Multiple types were found that match the controller named 'Home'. This can happen if the route that services this request ('{controller}/{action}/{id}') does not specify namespaces to search for a controller that matches the request. If this is the case, register this route by calling an overload of the 'MapRoute' method that takes a 'namespaces' parameter.
+
+The request for 'Home' has found the following matching controllers:
+TeamIHOC.Forums.Controllers.HomeController
+MVCForum.Website.Controllers.HomeController
+14/04/2015 03:14:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:14:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:15:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:15:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:15:33 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:15:39 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:15:48 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:16:03 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:16:18 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:16:33 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:16:48 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:17:03 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:17:18 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:17:33 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:17:48 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:24:22 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:24:28 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:24:29 | MVCForum.Services.dll | SyncBadges | Unable to load assembly. Probably not a badge assembly. In file named 'Owin.Security.Providers.dll', loader exception was: 'System.IO.FileLoadException':'Could not load file or assembly 'Microsoft.Owin.Security, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)'.
+14/04/2015 03:24:29 | MVCForum.Website.dll | Application_Start | Unable to load assembly. Probably not an event assembly. In file named 'Owin.Security.Providers.dll', loader exception was: 'System.IO.FileLoadException':'Could not load file or assembly 'Microsoft.Owin.Security, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)'.
+14/04/2015 03:24:37 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:33:04 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:33:10 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:33:11 | MVCForum.Services.dll | SyncBadges | Unable to load assembly. Probably not a badge assembly. In file named 'Owin.Security.Providers.dll', loader exception was: 'System.IO.FileLoadException':'Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)'.
+14/04/2015 03:33:11 | MVCForum.Website.dll | Application_Start | Unable to load assembly. Probably not an event assembly. In file named 'Owin.Security.Providers.dll', loader exception was: 'System.IO.FileLoadException':'Could not load file or assembly 'Microsoft.Owin, Version=2.0.2.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35' or one of its dependencies. The located assembly's manifest definition does not match the assembly reference. (Exception from HRESULT: 0x80131040)'.
+14/04/2015 03:33:19 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:33:47 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:33:54 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:34:02 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:34:16 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:34:21 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:34:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:34:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:35:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:35:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:35:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:35:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:36:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:36:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:36:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:36:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:37:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:37:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:37:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:37:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:38:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:38:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:38:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:38:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:39:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:39:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:39:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:39:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:40:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:40:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:40:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:40:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:41:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:41:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:41:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:41:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:42:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:42:16 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:42:31 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:42:46 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:43:01 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:43:29 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:43:35 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:43:44 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:43:44 | App_Web_od5ismgy.dll | Execute | Unable to retrieve resource key 'Topics.HotTopics' for language id 215592cf-3814-4a21-95ec-a47a0035580e.
+14/04/2015 03:43:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:44:14 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:44:29 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:44:44 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:44:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:45:14 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:45:29 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:45:44 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:45:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:46:14 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:46:29 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:46:54 | mscorlib.dll | InvokeMethod | START APP
+14/04/2015 03:47:03 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:47:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:47:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:47:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
+14/04/2015 03:47:59 | MVCForum.Website.dll | Execute | There are no SMTP details in the settings, unable to send emails
