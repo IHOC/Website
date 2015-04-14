@@ -45,16 +45,16 @@ namespace TeamIHOC.Forums
 			//    clientId: "",
 			//    clientSecret: "");
 
-			app.UseTwitterAuthentication(
-	 consumerKey: "UCy1ahFf7ieFlj9lZyiYlif86",
-	 consumerSecret: "G55d523CEwF9DjMIckUfHIWcBZ3qhJvPbp49bVU4d9VqvYWHnH");
+	 //	 app.UseTwitterAuthentication(
+	 //consumerKey: "UCy1ahFf7ieFlj9lZyiYlif86",
+	 //consumerSecret: "G55d523CEwF9DjMIckUfHIWcBZ3qhJvPbp49bVU4d9VqvYWHnH");
 
-			if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings[SettingsRef.FacebookAPIKey]))
-			{
-				app.UseFacebookAuthentication(
-					appId: ConfigurationManager.AppSettings[SettingsRef.FacebookAPIKey],
-					appSecret: ConfigurationManager.AppSettings[SettingsRef.FacebookAPISecret]);
-			}
+	 //	 if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings[SettingsRef.FacebookAPIKey]))
+	 //	 {
+	 //		 app.UseFacebookAuthentication(
+	 //			 appId: ConfigurationManager.AppSettings[SettingsRef.FacebookAPIKey],
+	 //			 appSecret: ConfigurationManager.AppSettings[SettingsRef.FacebookAPISecret]);
+	 //	 }
 
 			//app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
 			//{
@@ -62,14 +62,14 @@ namespace TeamIHOC.Forums
 			//    ClientSecret = ""
 			//});
 
-			if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPIKey]))
-			{
-				app.UseGooglePlusAuthentication(new GooglePlusAuthenticationOptions()
-				{
-					ClientId = ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPIKey],
-					ClientSecret = ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPISecret]
-				});
-			}
+			//if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPIKey]))
+			//{
+			//	app.UseGooglePlusAuthentication(new GooglePlusAuthenticationOptions()
+			//	{
+			//		ClientId = ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPIKey],
+			//		ClientSecret = ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPISecret]
+			//	});
+			//}
 		}
 	}
 }
