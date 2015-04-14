@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNet.Identity;
+﻿using System.Configuration;
+using Microsoft.AspNet.Identity;
 using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin;
@@ -8,6 +9,7 @@ using Microsoft.Owin.Security.Google;
 using Owin.Security.Providers.GooglePlus;
 using Owin;
 using System;
+using TeamIHOC.Library.Global;
 using TeamIHOC.Models;
 
 namespace TeamIHOC
@@ -47,9 +49,12 @@ namespace TeamIHOC
 			   consumerKey: "UCy1ahFf7ieFlj9lZyiYlif86",
 			   consumerSecret: "G55d523CEwF9DjMIckUfHIWcBZ3qhJvPbp49bVU4d9VqvYWHnH");
 
-			app.UseFacebookAuthentication(
-				 appId: "1627418324158379",
-				 appSecret: "753f93464e1891cf37467c50a1cdf226");
+			if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings[SettingsRef.FacebookAPIKey]))
+			{
+				app.UseFacebookAuthentication(
+					appId: ConfigurationManager.AppSettings[SettingsRef.FacebookAPIKey],
+					appSecret: ConfigurationManager.AppSettings[SettingsRef.FacebookAPISecret]);
+			}
 
 			//app.UseGoogleAuthentication(new GoogleOAuth2AuthenticationOptions()
 			//{
@@ -57,11 +62,14 @@ namespace TeamIHOC
 			//	ClientSecret = "qBJArS9r1Sjj8n82fZt5BYch"
 			//});
 
-			app.UseGooglePlusAuthentication(new GooglePlusAuthenticationOptions()
+			if (!string.IsNullOrEmpty(ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPIKey]))
 			{
-				ClientId = "393562117312-37quoibauo0ldb9m4i06ihokp9mdh19v.apps.googleusercontent.com",
-				ClientSecret = "qBJArS9r1Sjj8n82fZt5BYch"
-			});
+				app.UseGooglePlusAuthentication(new GooglePlusAuthenticationOptions()
+				{
+					ClientId = ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPIKey],
+					ClientSecret = ConfigurationManager.AppSettings[SettingsRef.GooglePlusAPISecret]
+				});
+			}
 		}
 	}
 }

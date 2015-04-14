@@ -14,6 +14,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{9133DA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamIHOC.Library", "TeamIHOC.Library\TeamIHOC.Library.csproj", "{B3BC6370-CD8B-4961-8931-40D2D3BD6C5B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TeamIHOC.Forums", "TeamIHOC.Forums\TeamIHOC.Forums.csproj", "{1A6ED861-232F-4732-9834-0394E57CCF44}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -28,6 +30,10 @@ Global
 		{B3BC6370-CD8B-4961-8931-40D2D3BD6C5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B3BC6370-CD8B-4961-8931-40D2D3BD6C5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B3BC6370-CD8B-4961-8931-40D2D3BD6C5B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1A6ED861-232F-4732-9834-0394E57CCF44}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A6ED861-232F-4732-9834-0394E57CCF44}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A6ED861-232F-4732-9834-0394E57CCF44}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A6ED861-232F-4732-9834-0394E57CCF44}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
