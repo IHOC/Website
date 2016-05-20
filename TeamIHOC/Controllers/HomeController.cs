@@ -36,5 +36,10 @@ namespace TeamIHOC.Controllers
 		{
 			return View();
 		}
+
+	    public ActionResult Application()
+	    {
+	        return View();
+	    }
 	}
 }
