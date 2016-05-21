@@ -190,9 +190,7 @@
     <Compile Include="Startup.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="App_Data\README.txt">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="App_Data\README.txt" />
     <Content Include="Content\bootstrap-theme.css" />
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
@@ -206,14 +204,40 @@
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <Content Include="Content\bootstrap-theme.css.map" />
     <Content Include="Content\bootstrap.css.map" />
+    <Content Include="Images\favicon\manifest.json" />
     <None Include="Properties\PublishProfiles\Local Server.pubxml" />
+    <None Include="Properties\PublishProfiles\Production.pubxml" />
     <None Include="Scripts\jquery-2.1.3.intellisense.js" />
-    <Content Include="Images\Modding\maglite2d_demo.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="Images\Modding\maglite2d_onground_demo.png">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <Content Include="Images\favicon\android-icon-144x144.png" />
+    <Content Include="Images\favicon\android-icon-192x192.png" />
+    <Content Include="Images\favicon\android-icon-36x36.png" />
+    <Content Include="Images\favicon\android-icon-48x48.png" />
+    <Content Include="Images\favicon\android-icon-72x72.png" />
+    <Content Include="Images\favicon\android-icon-96x96.png" />
+    <Content Include="Images\favicon\apple-icon-114x114.png" />
+    <Content Include="Images\favicon\apple-icon-120x120.png" />
+    <Content Include="Images\favicon\apple-icon-144x144.png" />
+    <Content Include="Images\favicon\apple-icon-152x152.png" />
+    <Content Include="Images\favicon\apple-icon-180x180.png" />
+    <Content Include="Images\favicon\apple-icon-57x57.png" />
+    <Content Include="Images\favicon\apple-icon-60x60.png" />
+    <Content Include="Images\favicon\apple-icon-72x72.png" />
+    <Content Include="Images\favicon\apple-icon-76x76.png" />
+    <Content Include="Images\favicon\apple-icon-precomposed.png" />
+    <Content Include="Images\favicon\apple-icon.png" />
+    <Content Include="Images\favicon\browserconfig.xml" />
+    <Content Include="Images\favicon\favicon-16x16.png" />
+    <Content Include="Images\favicon\favicon-32x32.png" />
+    <Content Include="Images\favicon\favicon-96x96.png" />
+    <Content Include="Images\favicon\favicon.ico" />
+    <Content Include="Images\favicon\ms-icon-144x144.png" />
+    <Content Include="Images\favicon\ms-icon-150x150.png" />
+    <Content Include="Images\favicon\ms-icon-310x310.png" />
+    <Content Include="Images\favicon\ms-icon-70x70.png" />
+    <Content Include="Images\logo.png" />
+    <Content Include="Images\Modding\maglite2d_demo.png" />
+    <Content Include="Images\Modding\maglite2d_onground_demo.png" />
+    <Content Include="Images\sitelogo.png" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-2.1.3.js" />
