@@ -1,0 +1,63 @@
+﻿@{
+    // edit the Content/members.json file to add more people to the page
+    @model IEnumerable<TeamIHOC.Models.MemberInfo>
+
+    ViewBag.Title = "Youtube and Streaming";
+    bool firstVod = true;
+
+}
+
+<h1>@ViewBag.Title</h1>
+
+<p class="lead">Want to catch up on the adventures of TeamIHOC? We have channels for that!</p>
+
+
+<div class="row">
+    @foreach (var element in Model)
+    {
+        <div class="col-md-3">
+            <h3>@element.Name</h3>
+            @if (!String.IsNullOrEmpty(element.ImageURL))
+            {
+                <p><img class="img-responsive img-rounded center-block" src="@element.ImageURL"></p>
+            }
+            @if (element.StreamingNames.Count() > 0)
+            {
+                // Don't center the text if we didn't display an image
+                <p class="@(!String.IsNullOrEmpty(element.ImageURL) ? "text-center" : "")">
+                    @{firstVod = true; }
+                    @foreach (var service in element.StreamingNames.Keys)
+                    {
+                        if (!firstVod)
+                        {
+                          @: -
+                        }
+                        else
+                        {
+                            firstVod = false;
+                        }
+
+                        switch (service)
+                        {
+                            case "Twitch":
+                                <a href="https://www.twitch.tv/@element.StreamingNames[service]">Twitch</a>
+                                break;
+                            case "Youtube":
+                                <a href="https://www.youtube.com/@element.StreamingNames[service]">YouTube</a>
+                                break;
+                            case "Beam":
+                                <a href="https://beam.pro/@element.StreamingNames[service]">Beam</a>
+                                break;
+                            default:
+                                <a href="http://@HttpUtility.UrlEncode(element.StreamingNames[service])">@service</a>
+                                break;
+                        }
+                    }
+                </p>
+            }
+                <p>
+                    @element.Description
+                </p>
+        </div>
+    }
+</div>
