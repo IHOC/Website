@@ -23,11 +23,15 @@
             }
             @if (element.StreamingNames.Count() > 0)
             {
-                // Don't center the text if we didn't display an image
+                // Don't center the text if we didn't display an image, it looks weird.
                 <p class="@(!String.IsNullOrEmpty(element.ImageURL) ? "text-center" : "")">
                     @{firstVod = true; }
                     @foreach (var service in element.StreamingNames.Keys)
                     {
+                        if (service.Contains("RSS"))
+                        {
+                            continue;
+                        }
                         if (!firstVod)
                         {
                           @: -
@@ -48,6 +52,10 @@
                             case "Beam":
                                 <a href="https://beam.pro/@element.StreamingNames[service]">Beam</a>
                                 break;
+                            case "TwitchRSS":
+                            case "YoutubeRSS":
+                            case "BeamRSS":
+                                break; // don't show these, they're only for getting the recent videos lists
                             default:
                                 <a href="http://@HttpUtility.UrlEncode(element.StreamingNames[service])">@service</a>
                                 break;
@@ -58,6 +66,16 @@
                 <p>
                     @element.Description
                 </p>
+            @if (element.RecentActivty != null && element.RecentActivty.Count > 0)
+            {
+                <h4>Recent Videos:</h4>
+                foreach (KeyValuePair<string,string> entry in element.RecentActivty)
+                {
+                    <p><a href="@entry.Key">@entry.Value</a></p>
+
+                }
+            }
+
         </div>
     }
 </div>
