@@ -41,11 +41,19 @@
 			<div class="navbar-collapse collapse">
 				<ul class="nav navbar-nav">
 					<li>@Html.ActionLink("Home", "Index", "Home")</li>
-					<li>@Html.ActionLink("About", "About", "Home")</li>
-				    <li>@Html.ActionLink("Contact", "Contact", "Home")</li>
+					@*<li>@Html.ActionLink("About", "About", "Home")</li>*@
+				    @*<li></li>*@
 				    <li>@Html.ActionLink("Apply Now!", "Application", "Home")</li>
 				    <li><a href="http://forums.teamihoc.com" target="_new">Forums</a></li>
 				    <li><a href="https://shop.spreadshirt.com/teamihoc" target="_blank">Store Front</a></li>
+				    <li role="presentation" class="dropdown">
+				        <a class="dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="False">
+				            Media <span class="caret"></span>
+				        </a>
+				        <ul class="dropdown-menu">
+				            <li><a href="http://youtube.com">Put Youtube MVC Link Here</a></li>
+				        </ul>
+				    </li>
 					@*<li>@Html.ActionLink("IRC", "Irc", "Home")</li>*@
 					@*<li>@Html.ActionLink("MC Modding", "Modding", "Home")</li>*@
 				</ul>
@@ -57,7 +65,7 @@
 		@RenderBody()
 		<hr />
 		<footer>
-			<p>&copy; @DateTime.Now.Year - TeamIHOC</p>
+			<p>&copy; @DateTime.Now.Year - TeamIHOC | @Html.ActionLink("Contact Us", "Contact", "Home")</p>
 		</footer>
 	</div>
 

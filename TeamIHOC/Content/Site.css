@@ -23,3 +23,7 @@ a.site-logo {
     width: 166px;
     text-indent: -9999px;
 }
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a {
+    background-color: #90A0BB !important;
+}
