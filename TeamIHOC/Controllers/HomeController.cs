@@ -41,5 +41,15 @@ namespace TeamIHOC.Controllers
 	    {
 	        return View();
 	    }
+
+	    public ActionResult Youtube()
+	    {
+	        return View();
+	    }
+
+	    public ActionResult ServerInfo()
+	    {
+	        return View();
+	    }
 	}
 }
