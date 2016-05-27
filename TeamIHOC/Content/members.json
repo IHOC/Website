@@ -1,0 +1,44 @@
+﻿[
+  {
+    "Name": "DJPaultjeD",
+    "ImageURL": "https://pbs.twimg.com/profile_images/713858477039493121/vfpSxWZO_400x400.jpg",
+    "StreamingNames": {
+      "Youtube": "djpaultjed",
+      "YoutubeRSS" :  "UCbFJ-IEM2Ptw3XX1ADKb09w",
+      "Twitch": "djpaultjed",
+    },
+    "Description": "Plays Minecraft, indie games, (grand) strategy, and more."
+  },
+  {
+    "Name": "nemes",
+    "ImageURL": "https://pbs.twimg.com/profile_images/636360295108120576/Pa52Aq81_400x400.png",
+    "StreamingNames": {
+      "Youtube": "bercrewstudios",
+      "YoutubeRSS" :  "UCPh8KmMP7g0sKa3qIhUHJ5Q",
+      "Twitch": "bercrewstudios",
+    },
+    "Description": "Strategy, action, sandbox games and more."
+  },
+  {
+    "Name": "bibbejolly",
+    "ImageURL": "https://pbs.twimg.com/profile_images/629731127113093120/HKryNLBa_400x400.jpg",
+    "StreamingNames": {
+      "Youtube": "bibbejolly",
+      "YoutubeRSS" :  "UCj5FS2lAHnFQnbaj5pLZqng",
+    },
+    "Description": "Minecraft, CS:GO and portal :D"
+  },
+  {
+    "Name": "bluevulpine",
+    "ImageURL": "https://pbs.twimg.com/profile_images/735996972272746496/C7cWBGYr_400x400.jpg",
+    "StreamingNames": {
+      "Beam": "bluevulpine",
+      "Youtube": "bluevulpine",
+      "YoutubeRSS": "UC4-NKBq5WKSesQ54KVmyxjA"
+    },
+    "Description": "Easily confused, but likes to try new things. HOTS, Minecraft, maybe some EVE Online, and starting to dabble in strategy."
+  },
+
+
+
+]
