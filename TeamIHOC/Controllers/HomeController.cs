@@ -106,5 +106,11 @@ namespace TeamIHOC.Controllers
 
             return activity;
         }
-    }
+
+
+	    public ActionResult ServerInfo()
+	    {
+	        return View();
+	    }
+	}
 }

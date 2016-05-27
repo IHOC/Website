@@ -291,6 +291,8 @@
     <Content Include="Views\Home\Modding.cshtml" />
     <Content Include="Views\Home\Application.cshtml" />
     <Content Include="Views\Home\Youtube.cshtml" />
+    <Content Include="Views\Home\ServerInfo.cshtml" />
+    <Content Include="Views\Shared\_navigation.cshtml" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
