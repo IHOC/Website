@@ -24,6 +24,7 @@
     <RestorePackages>true</RestorePackages>
     <NuGetPackageImportStamp>c9b4c169</NuGetPackageImportStamp>
     <TargetFrameworkProfile />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -904,6 +905,7 @@
     <Content Include="Scripts\bbeditor\themes\monocons\monocons.ttf" />
     <Content Include="Scripts\bbeditor\themes\monocons\monocons.eot" />
     <None Include="Properties\PublishProfiles\IHOC Forums Production.pubxml" />
+    <None Include="Properties\PublishProfiles\IHOC Forums.pubxml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\cache\Cache.txt" />
     <Content Include="Scripts\dashboard.js" />
