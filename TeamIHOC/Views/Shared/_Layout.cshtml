@@ -3,6 +3,14 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta property="og:url" content="@Request.Url.AbsoluteUri.ToLower()" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Team International House of Creepers" />
+    <meta property="og:description" content="We are a diverse group of Minecraft players of all skill levels and we also develop our own Minecraft modifications. We own/run a Minecraft server for all of our players, as well as a Discord server and of course this website and forums." />
+    <meta property="og:image" content="http://www.teamihoc.com/images/sitelogo.png" />
+
+
     <title>@ViewBag.Title - Team International House of Creepers</title>
 
     <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
@@ -49,6 +57,35 @@
         <hr />
         <footer>
             <p>&copy; @DateTime.Now.Year - TeamIHOC | @Html.ActionLink("Contact Us", "Contact", "Home")</p>
+
+            <div id="fb-root"></div>
+            <script>
+                (function(d, s, id) {
+                    var js, fjs = d.getElementsByTagName(s)[0];
+                    if (d.getElementById(id)) return;
+                    js = d.createElement(s);
+                    js.id = id;
+                    js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6&appId=1627418324158379";
+                    fjs.parentNode.insertBefore(js, fjs);
+                }(document, 'script', 'facebook-jssdk'));
+            </script>
+
+
+            <script>
+                !function (d, s, id) { var js, fjs = d.getElementsByTagName(s)[0], p = /^http:/.test(d.location) ? 'http' : 'https'; if (!d.getElementById(id)) { js = d.createElement(s); js.id = id; js.src = p + '://platform.twitter.com/widgets.js'; fjs.parentNode.insertBefore(js, fjs); } }(document, 'script', 'twitter-wjs');
+            </script>
+
+            <table class="social-media">
+                <tr>
+                    <td>
+                        <div class="fb-like" data-href="https://www.facebook.com/IHofC/" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div>
+                    </td>
+                    <td style="padding-top: 5px; padding-left: 10px;">
+                        <a href="https://twitter.com/teamihoc" class="twitter-follow-button" data-show-count="false" data-dnt="true">Follow @@teamihoc</a>
+                        <a href="https://twitter.com/share" class="twitter-share-button" data-via="teamihoc" data-dnt="true">Tweet</a>
+                    </td>
+                </tr>
+            </table>
         </footer>
     </div>
 

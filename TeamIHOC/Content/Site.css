@@ -27,3 +27,7 @@ a.site-logo {
 .navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a {
     background-color: #90A0BB !important;
 }
+
+.social-media td {
+    padding-right: 2px;
+}
