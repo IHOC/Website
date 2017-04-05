@@ -10,14 +10,16 @@ using Microsoft.AspNet.Identity.EntityFramework;
 using Microsoft.AspNet.Identity.Owin;
 using Microsoft.Owin.Security;
 using Owin;
+using TeamIHOC.Library;
+using TeamIHOC.Library.Identity;
+using TeamIHOC.Library.Model;
 using TeamIHOC.Models;
 
 namespace TeamIHOC.Controllers
 {
     [Authorize]
-    public class AccountController : Controller
+    public class AccountController : BaseController
     {
-        private ApplicationUserManager _userManager;
 
         public AccountController()
         {
@@ -28,16 +30,7 @@ namespace TeamIHOC.Controllers
             UserManager = userManager;
         }
 
-        public ApplicationUserManager UserManager {
-            get
-            {
-                return _userManager ?? HttpContext.GetOwinContext().GetUserManager<ApplicationUserManager>();
-            }
-            private set
-            {
-                _userManager = value;
-            }
-        }
+
 
         //
         // GET: /Account/Login
